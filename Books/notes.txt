@@ -1,0 +1,9 @@
+_* - использовать как последовательность
+1 to 5: _*
+
+ArrayBuffer - массив переменной длины
+val b = ArrayBuffer[Int]()
+b ++= Array(1,2,3) - добавить в коней
+b += 1 - add in ArrayBuffer
+b.trimEnd(3) - delete 3 elements in the end
+b.toArray - превратить в массив
